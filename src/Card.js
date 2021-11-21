@@ -1,6 +1,6 @@
 import React from "react";
 import Favori from "./Favori";
-//import "./Card.css";
+import "./Card.css";
 
 function Card() {
   return (
