@@ -4,7 +4,7 @@ import React from "react";
 function Favori() {
   return (
     <div class="favori">
-      <button>3</button>
+      <button>♡</button>
     </div>
   );
 }
