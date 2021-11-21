@@ -14,9 +14,8 @@ function App() {
         </aside>
         <article>
           <Card></Card>
-          <h1>titre de l'article</h1>
-          <p></p>
-          <p></p>
+          <Card></Card>
+          <Card></Card>
         </article>
       </main>
       <Footer></Footer>

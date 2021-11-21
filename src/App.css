@@ -45,3 +45,18 @@ body {
 p {
   color: rgb(38, 122, 122);
 }
+
+article {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1em;
+}
+
+@media screen and (max-width: 426px) {
+  body {
+    background: red;
+  }
+  article {
+    flex-direction: column;
+  }
+}
