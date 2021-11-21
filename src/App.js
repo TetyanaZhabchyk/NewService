@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Card from "./Card";
 import Header from "./Header";
+import Footer from "./Footer";
 function App() {
   return (
     <body>
@@ -18,7 +19,7 @@ function App() {
           <p></p>
         </article>
       </main>
-      <footer></footer>
+      <Footer></Footer>
     </body>
   );
 }
