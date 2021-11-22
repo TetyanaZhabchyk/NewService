@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "url": "/images/anglais.jpeg",
+      "title": "Cours d'anglais"
+    },
+    {
+      "url": "/images/musee.png",
+      "title": ""
+    },
+    {
+      "url": "/images/python.png",
+      "title": ""
+    }
+  ]
+}
