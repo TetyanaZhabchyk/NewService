@@ -10,7 +10,7 @@ function App() {
   //1fois outilisation -import react
   useEffect(() => {
     //recupere json et fait promesse (donees =data)
-    fetch("http://localhost:3001/cards.json")
+    fetch("http://localhost:3001/data/cards.json")
       .then((response) => response.json())
       .then((data) => {
         setCards(data.cards);
@@ -31,9 +31,12 @@ function App() {
           <button>Details</button>
         </aside>
         <article>
-          <Card url="images/anglais.jpeg" titre="Cours d'anglais"></Card>
-          <Card url="images/musee.png"></Card>
-          <Card url="images/python.png"></Card>
+          {
+            //objet element contient body
+            cards.map((element, index) => (
+              <Card key={index} url={element.url} titre={element.title} />
+            ))
+          }
         </article>
       </main>
       <Footer></Footer>
