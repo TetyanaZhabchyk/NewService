@@ -13,9 +13,9 @@ function App() {
           <button>Details</button>
         </aside>
         <article>
-          <Card url="anglais.jpeg" titre="Cours d'anglais"></Card>
-          <Card url="musee.PNG"></Card>
-          <Card url="python.PNG"></Card>
+          <Card url="/images/anglais.jpeg" titre="Cours d'anglais"></Card>
+          <Card url="musee.png"></Card>
+          <Card url="python.png"></Card>
         </article>
       </main>
       <Footer></Footer>
