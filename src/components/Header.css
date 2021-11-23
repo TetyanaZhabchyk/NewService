@@ -1,0 +1,33 @@
+header .line {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+  border-color: rgb(117, 63, 205);
+  border-width: 2px;
+  border-style: dotted;
+  flex-wrap: wrap;
+}
+
+header nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+header nav li {
+  flex-grow: 1;
+  border: 1px solid rgb(146, 15, 15);
+  list-style-type: none;
+}
+
+.search {
+  width: 4rem;
+}
+header h1 {
+  flex-basis: 300px;
+  margin: 0;
+}
+
+header form {
+  border: 1px solid black;
+}
