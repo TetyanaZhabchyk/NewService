@@ -8,7 +8,7 @@ function Header() {
         <h1>Le bon service</h1>
         <p>Echange de Services entre particuliers</p>
         <h1 class="logo">
-          <img src="textencouleur.JPG" alt="" />
+          <img src="/images/html.png" alt="" />
         </h1>
         <form>
           <input type="search" name="q" placeholder="Rechercher" />

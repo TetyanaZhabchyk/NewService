@@ -31,3 +31,7 @@ header h1 {
 header form {
   border: 1px solid black;
 }
+
+.logo img {
+  width: 50%;
+}
