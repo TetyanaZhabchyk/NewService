@@ -1,9 +1,13 @@
+header {
+  background: #ccc;
+}
+
 header .line {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding: 1rem;
-  border-color: rgb(117, 63, 205);
+  border-color: peru;
   border-width: 2px;
   border-style: dotted;
   flex-wrap: wrap;
@@ -14,15 +18,21 @@ header nav ul {
   margin: 0;
   padding: 0;
 }
+
 header nav li {
   flex-grow: 1;
-  border: 1px solid rgb(146, 15, 15);
+  border: 1px solid #666;
   list-style-type: none;
+}
+
+.logo img {
+  width: 20%;
 }
 
 .search {
   width: 4rem;
 }
+
 header h1 {
   flex-basis: 300px;
   margin: 0;
@@ -30,8 +40,4 @@ header h1 {
 
 header form {
   border: 1px solid black;
-}
-
-.logo img {
-  width: 50%;
 }
