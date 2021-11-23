@@ -1,11 +1,12 @@
 import Favori from "./Favori";
+import "./Categories.css";
 import React from "react";
 
 function Categories() {
   return (
     <aside>
       <input type="text"></input>
-      <button>Details</button>
+      <button class="couleur">Details</button>
     </aside>
   );
 }
