@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import Card from "./Card";
 import Header from "./Header";
 import Footer from "./Footer";
+import Categories from "./Categories";
 function App() {
   //declanche renouvellement d'affichage
   let [cards, setCards] = useState([]);
@@ -26,10 +27,8 @@ function App() {
     <body>
       <Header></Header>
       <main>
-        <aside>
-          <input type="text" />
-          <button>Details</button>
-        </aside>
+        <Categories></Categories>
+
         <article>
           {
             //objet element contient body
