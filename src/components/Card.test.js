@@ -6,4 +6,14 @@ describe("<Card />", () => {
     render(<Card />);
     expect(screen.queryByRole("img")).not.toBeInTheDocument();
   });
+
+  test("should render image if there is an url", () => {
+    render(<Card url="test.jpg" />);
+    expect(screen.queryByRole("img")).toBeInTheDocument();
+  });
+
+  test("should render price when given", () => {
+    render(<Card price="10 euros" />);
+    expect(screen.getByText("10 euros")).toBeInTheDocument();
+  });
 });

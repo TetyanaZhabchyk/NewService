@@ -3,11 +3,11 @@ import Favori from "./Favori";
 import "./Card.css";
 
 function Card(props) {
-  const { url, titre } = props;
+  const { url, titre, price } = props;
   // const url = props.url
   // const titre = props.titre
   return (
-    <div class="card">
+    <div className="card">
       <Favori></Favori>
       {url && (
         <a href="#" class="picture">
@@ -17,8 +17,8 @@ function Card(props) {
       <h2>
         <a href="#">{titre}</a>
       </h2>
-      <p class="price">Pour les débutants</p>
-      <p class="location">Paris 75009</p>
+      <p className="price">{price}</p>
+      <p className="location">Paris 75009</p>
     </div>
   );
 }

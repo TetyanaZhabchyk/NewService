@@ -4,10 +4,10 @@ import "./Header.css";
 function Header() {
   return (
     <header>
-      <div class="line">
+      <div className="line">
         <h1>Le bon service</h1>
         <p>Echange de Services entre particuliers</p>
-        <h1 class="logo">
+        <h1 className="logo">
           <img src="/images/html.png" alt="" />
         </h1>
         <form>

@@ -33,7 +33,12 @@ function App() {
           {
             //objet element contient body
             cards.map((element, index) => (
-              <Card key={index} url={element.url} titre={element.title} />
+              <Card
+                key={index}
+                url={element.url}
+                titre={element.title}
+                price={element.price}
+              />
             ))
           }
         </article>
