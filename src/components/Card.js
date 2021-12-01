@@ -10,7 +10,7 @@ function Card(props) {
     <div className="card">
       <Favori></Favori>
       {url && (
-        <a href="#" class="picture">
+        <a href="#" className="picture">
           <img src={url} alt="" />
         </a>
       )}

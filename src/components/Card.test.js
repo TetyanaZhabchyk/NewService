@@ -17,8 +17,8 @@ describe("<Card />", () => {
     expect(screen.getByText("10 euros")).toBeInTheDocument();
   });
 
-  test("should render p when given", () => {
+  test("on doit afficher le titre quand il est passé", () => {
     render(<Card url="image.jpg" titre="Mon titre" price="10 euros" />);
-    expect(screen.getByText("")).toBeInTheDocument();
+    expect(screen.getByText("Mon titre")).toBeInTheDocument();
   });
 });

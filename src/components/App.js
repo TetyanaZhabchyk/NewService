@@ -11,7 +11,7 @@ function App() {
   //1fois outilisation -import react
   useEffect(() => {
     //recupere json et fait promesse (donees =data)
-    fetch("http://localhost:3001/data/cards.json")
+    fetch("http://localhost:3000/data/cards.json")
       .then((response) => response.json())
       .then((data) => {
         setCards(data.cards);
