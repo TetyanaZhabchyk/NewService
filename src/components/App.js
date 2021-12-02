@@ -5,11 +5,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Categories from "./Categories";
 import { Link } from "react-router-dom";
-import Contact from "./Contact";
-import { render } from "react-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "./App";
-import Expenses from "./routes/expenses";
+import {} from "react-router-dom";
 function App() {
   //declanche renouvellement d'affichage
   let [cards, setCards] = useState([]);
