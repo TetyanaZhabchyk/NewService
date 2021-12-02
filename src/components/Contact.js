@@ -10,6 +10,11 @@ function Contact() {
         <p>Bienvenue</p>
         <p>tetyana.chouteau@gmail.com</p>
         <p>0683276981</p>
+
+        <nav>
+          <Link to="/inscription">S'insrire</Link> |{" "}
+          <Link to="/connection">Se connecter</Link>
+        </nav>
       </div>
     </contact>
   );

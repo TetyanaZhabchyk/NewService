@@ -4,6 +4,7 @@ import Card from "./Card";
 import Header from "./Header";
 import Footer from "./Footer";
 import Categories from "./Categories";
+import { Link } from "react-router-dom";
 function App() {
   //declanche renouvellement d'affichage
   let [cards, setCards] = useState([]);
