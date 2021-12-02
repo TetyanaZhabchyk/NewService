@@ -1,17 +1,18 @@
 import React from "react";
+import Header from "./Header";
+import Footer from "./Footer";
 import "./Contact.css";
 function Contact() {
   return (
-    <contact>
-      <head>
-        <title>CONTACT</title>
-      </head>
-      <div>
+    <body>
+      <Header />
+      <main>
         <p>Bienvenue</p>
         <p>tetyana.chouteau@gmail.com</p>
         <p>0683276981</p>
-      </div>
-    </contact>
+      </main>
+      <Footer />
+    </body>
   );
 }
 export default Contact;

@@ -1,11 +1,14 @@
 import Favori from "./Favori";
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 function Header() {
   return (
     <header>
       <div className="line">
-        <h1>Le bon service</h1>
+        <h1>
+          <Link to="/">Le bon service</Link>
+        </h1>
         <p>Echange de Services entre particuliers</p>
         <h1 className="logo">
           <img src="/images/html.png" alt="" />

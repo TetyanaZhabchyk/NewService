@@ -1,12 +1,20 @@
 import React from "react";
-//import "./Footer.css";
+import { Link, useLocation } from "react-router-dom";
+
+import "./Footer.css";
 
 function Footer() {
+  const location = useLocation();
+  console.log(location.pathname);
   return (
     <footer>
-      <p>Exercise</p>
-      //{""}
-      //<button>Clear</button>
+      <nav>
+        <ul>
+          <li className={location.pathname === "/Contact" ? "active" : ""}>
+            <Link to="/Contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
     </footer>
   );
 }
