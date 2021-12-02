@@ -8,6 +8,8 @@ function Contact() {
       </head>
       <div>
         <p>Bienvenue</p>
+        <p>tetyana.chouteau@gmail.com</p>
+        <p>0683276981</p>
       </div>
     </contact>
   );
