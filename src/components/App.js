@@ -5,6 +5,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Categories from "./Categories";
 import { Link } from "react-router-dom";
+import Contact from "./Contact";
 function App() {
   //declanche renouvellement d'affichage
   let [cards, setCards] = useState([]);
@@ -29,6 +30,9 @@ function App() {
       <Header></Header>
       <main>
         <Categories></Categories>
+        <nav>
+          <Link to="/Contact">Bienvenue</Link> |{" "}
+        </nav>
 
         <article>
           {
