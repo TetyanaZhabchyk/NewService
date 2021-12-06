@@ -6,7 +6,7 @@ function Categories() {
   return (
     <aside>
       <input type="text"></input>
-      <button class="couleur">Details</button>
+      <button className="couleur">Details</button>
     </aside>
   );
 }
